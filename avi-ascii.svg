@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 560" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 12px; }
+      .bar { fill: #161b22; }
+      .dot-r { fill: #ff5f56; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #27c93f; }
+      .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; font-size: 13px; }
+      .ascii-text {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 8.5px;
+        line-height: 9px;
+        fill: #58a6ff;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        white-space: pre;
+      }
+      .cursor {
+        fill: #58a6ff;
+        animation: blink 1s infinite;
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect class="bg" width="450" height="560" stroke="#30363d" stroke-width="1.5"/>
+  <path class="bar" d="M0 12C0 5.373 5.373 0 12 0h426c6.627 0 12 5.373 12 12v28H0V12z"/>
+  
+  <!-- Window Controls -->
+  <circle class="dot-r" cx="24" cy="20" r="6"/>
+  <circle class="dot-y" cx="44" cy="20" r="6"/>
+  <circle class="dot-g" cx="64" cy="20" r="6"/>
+  <text class="title" x="225" y="24" text-anchor="middle">mahesh@terminal:~ (portrait.ascii)</text>
+
+  <!-- ASCII Portrait Content -->
+  <text class="ascii-text" x="25" y="60" xml:space="preserve">
+                  .:::::::..                  
+              .:::::::::::::::::.             
+            .:::::::::::::::::::::.           
+           :::::::::::::::::::::::::          
+          :::::::::::::::::::::::::::         
+         .::::::::::::::::::::::::::::        
+         :::::::::::::::::::::::::::::        
+         :::::::::::::::::::::::::::::        
+         :::::::::::::::::::::::::::::        
+         .:::::::::::::::::::::::::::         
+          ':::::::::::::::::::::::::'         
+             '::;----:::----;::'              
+                |   o | o   |                 
+                |     |     |                 
+                (    ===    )                 
+                 \   ---   /                  
+                  '-------'                   
+               .---'       '---.              
+             /       mahesh      \            
+            /  /|             |\  \           
+           /  / |     |||     | \  \          
+          /  /  |  |  |||  |  |  \  \         
+         (  (   |  |  |||  |  |   )  )        
+          \  \  |  |  |||  |  |  /  /         
+           \  \ |  |  |||  |  | /  /          
+            \  '|  |  |||  |  |'  /           
+             \==|  |  |||  |  |==/            
+                |  |  |||  |  |               
+                |  |  |||  |  |               
+                |  |  |||  |  |               
+               /   |  |||  |   \              
+              /    |  |||  |    \             
+             /   / |  |||  | \   \            
+            /   /  |  |||  |  \   \           
+           |   (===|=======|===)   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |   |   |       |   |   |          
+           |___|   |       |   |___|          
+           (   /   |       |   \   )          
+            \_/    |       |    \_/           
+  </text>
+  <rect class="cursor" x="25" y="495" width="8" height="14"/>
+</svg>
