@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 560" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; rx: 12px; }
+      .bar { fill: #161b22; }
+      .dot-r { fill: #ff5f56; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #27c93f; }
+      .title { fill: #8b949e; font-family: monospace; font-size: 13px; }
+      .term-text { font-family: "Courier New", Courier, monospace; font-size: 13px; }
+      .c-green { fill: #7ee787; font-weight: bold; }
+      .c-blue { fill: #58a6ff; font-weight: bold; }
+      .c-purple { fill: #d2a8ff; font-weight: bold; }
+      .c-yellow { fill: #f2cc60; }
+      .c-gray { fill: #8b949e; }
+      .c-white { fill: #e6edf3; }
+      .prompt { fill: #39d353; font-weight: bold; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="540" height="560" stroke="#30363d" stroke-width="1.5"/>
+  <path class="bar" d="M0 12C0 5.373 5.373 0 12 0h516c6.627 0 12 5.373 12 12v28H0V12z"/>
+  
+  <!-- Window Controls -->
+  <circle class="dot-r" cx="24" cy="20" r="6"/>
+  <circle class="dot-y" cx="44" cy="20" r="6"/>
+  <circle class="dot-g" cx="64" cy="20" r="6"/>
+  <text class="title" x="270" y="24" text-anchor="middle">mahesh@neofetch</text>
+
+  <!-- Content -->
+  <text class="term-text" x="30" y="65">
+    <tspan class="prompt">mahesh@github</tspan><tspan class="c-white"> ~ $ neofetch --me</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="105">
+    <tspan class="c-green" font-size="16">Mahesh Dhangar</tspan>
+  </text>
+  <text class="term-text" x="30" y="125">
+    <tspan class="c-gray">------------------------------------</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="160">
+    <tspan class="c-purple">Role: </tspan><tspan class="c-white">Aspiring Software Engineer</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="195">
+    <tspan class="c-blue">Stack: </tspan><tspan class="c-white">Java, Python, MERN Stack</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="230">
+    <tspan class="c-yellow">Focus: </tspan><tspan class="c-white">DSA &amp; Building Scalable Web Apps</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="265">
+    <tspan class="c-green">Location: </tspan><tspan class="c-white">Pune, Maharashtra, India</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="300">
+    <tspan class="c-purple">Editor: </tspan><tspan class="c-white">VS Code, IntelliJ IDEA</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="335">
+    <tspan class="c-blue">Shell: </tspan><tspan class="c-white">zsh / bash / git-bash</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="380">
+    <tspan class="c-gray">----------- [ CONNECT ] -----------</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="415">
+    <tspan class="c-green">GitHub: </tspan><tspan class="c-blue">github.com/maheshdhangar18</tspan>
+  </text>
+
+  <text class="term-text" x="30" y="450">
+    <tspan class="c-green">LinkedIn: </tspan><tspan class="c-blue">linkedin.com/in/maheshdhangar</tspan>
+  </text>
+
+  <!-- Color Palette Showcase -->
+  <g transform="translate(30, 490)">
+    <rect x="0" y="0" width="28" height="18" fill="#161b22" rx="3"/>
+    <rect x="35" y="0" width="28" height="18" fill="#ff7b72" rx="3"/>
+    <rect x="70" y="0" width="28" height="18" fill="#7ee787" rx="3"/>
+    <rect x="105" y="0" width="28" height="18" fill="#d2a8ff" rx="3"/>
+    <rect x="140" y="0" width="28" height="18" fill="#58a6ff" rx="3"/>
+    <rect x="175" y="0" width="28" height="18" fill="#f2cc60" rx="3"/>
+  </g>
+</svg>
